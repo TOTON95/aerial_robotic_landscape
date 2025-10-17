@@ -59,12 +59,6 @@
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Hardware, Components, and Dev Kits</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#standard-commercial-research-platforms">Standard Commercial Research Platforms</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#copters">Copters</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#flapping-wing">Flapping wing</a>
-    </li>
-        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#industrial-platforms">Industrial Platforms</a>
     </li>
@@ -86,6 +80,8 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#tof-cameras">TOF Cameras</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#event-cameras">Event Cameras</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#reference-bill-of-materials">Reference Bill of Materials</a>
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#holybro-s500v2">Holybro S500v2</a>
@@ -98,7 +94,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../autopilots_suites/">Autopilot Suites</a>
+                <li class="toctree-l1"><a class="reference internal" href="../software/">Autopilot suites</a>
                 </li>
               </ul>
               <ul>
@@ -145,7 +141,6 @@
 <p>This is an list of development platforms for aerial robotics. Please start a pull request if you'd like to update these.</p>
 <h2 id="standard-commercial-research-platforms">Standard Commercial Research Platforms</h2>
 <p>These are platforms that are currently commercially available for anybody to buy for their research.</p>
-<h3 id="copters">Copters</h3>
 <p>Holybro:</p>
 <ul>
 <li><a href="https://holybro.com/collections/multicopter-kit/products/px4-vision-dev-kit-v1-5">PX4 Vision Dev Kit V1.5</a></li>
@@ -158,7 +153,6 @@
 </ul>
 <p>Duckietown:</p>
 <ul>
-<li><a href="https://get.duckietown.com/products/duckiedrone-dd21">Duckiedrone DD21</a></li>
 <li><a href="https://get.duckietown.com/products/autonomous-raspberrypi-quadcopter-duckiedrone-dd24">Duckiedrone DD24</a></li>
 </ul>
 <p>Fly4Future:</p>
@@ -166,17 +160,30 @@
 <li><a href="https://fly4future.com/robofly/">Fly4Future Robofly</a></li>
 <li><a href="https://fly4future.com/custom-drones/">FLy4Future custom drone designs</a></li>
 </ul>
-<p>Other:</p>
+<p>Bitcraze AB:</p>
 <ul>
-<li><a href="https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66">NXP HoverGames Kit</a> official hardware for the yearly <a href="https://www.hovergames.com">HoverGames Challenge</a></li>
-<li><a href="https://clover.coex.tech/en/">Clover by Coex</a></li>
-<li><a href="https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/">Droneblocks DEXI 5</a></li>
-<li><a href="https://store.3dr.com/3dr-quad-zero-kit/">3DR Quad Zero Kit</a></li>
-<li><a href="https://www.bitcraze.io/products/crazyflie-2-1-plus/">Crazyflie 2.1+ - Bitcraze</a></li>
+<li><a href="https://www.bitcraze.io/products/crazyflie-2-1-plus/">Crazyflie 2.1+</a></li>
+<li><a href="https://www.bitcraze.io/products/crazyflie-2-1-brushless/">Crazyflie 2.1 Brushless</a></li>
 </ul>
-<h3 id="flapping-wing">Flapping wing</h3>
+<p>NXP Semiconductors:</p>
 <ul>
-<li><a href="https://flapper-drones.com/wp/nimbleplus/">Flapper Nimble+</a> insect-inspired UAV by Flapper Drones</li>
+<li><a href="https://www.nxp.com/design/designs/nxp-hovergames-drone-kit-including-rddrone-fmuk66-and-peripherals:KIT-HGDRONEK66">NXP HoverGames Kit</a></li>
+</ul>
+<p>Droneblocks:</p>
+<ul>
+<li><a href="https://droneblocks.io/program/dexi-5-px4-stem-drone-kit/">Droneblocks DEXI 5</a></li>
+</ul>
+<p>Coex:</p>
+<ul>
+<li><a href="https://clover.coex.tech/en/">Clover</a></li>
+</ul>
+<p>3DR:</p>
+<ul>
+<li><a href="https://store.3dr.com/3dr-quad-zero-kit/">3DR Quad Zero Kit</a></li>
+</ul>
+<p>Flapper Drones:</p>
+<ul>
+<li><a href="https://flapper-drones.com/wp/nimbleplus/">Flapper Nimble+</a> </li>
 </ul>
 <h2 id="industrial-platforms">Industrial Platforms</h2>
 <ul>
@@ -186,6 +193,7 @@
 <h2 id="inhouse-developed-platforms">Inhouse-developed platforms</h2>
 <p>These are platforms that are standard within a lab or department, with information of what it contains provided with perhaps build instructions:</p>
 <ul>
+<li><a href="https://tilties2.github.io/omniquad-website/">OmniQuad - University of Naples Federico II</a></li>
 <li><a href="https://agilicious.readthedocs.io/en/latest/index.html">Agilicous - University of Zurich</a></li>
 <li><a href="http://swarmslab.com/projects/">ModQuad - Lehigh University</a></li>
 <li><a href="https://ieeexplore.ieee.org/document/9836115">RMF-Owl - Norwegian University of Science and Technology</a></li>
@@ -272,6 +280,10 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
 <li><a href="https://www.emcraft.com/products/1111">Liteon A65 Camera Starter Kit</a> Check with vendor for NXP NAVQPLUS compatibility.</li>
 <li><a href="https://www.emcraft.com/products/1178">PMD Flexx2 3D Camera</a> USB version should be compatible with most companion computers.</li>
 <li><a href="https://docs.modalai.com/M0171/">VOXL2 TOF Depth Sensor </a> Compatible with VOXL2. Check with vendor for early access product.</li>
+</ul>
+<h3 id="event-cameras">Event Cameras</h3>
+<ul>
+<li><a href="https://openmv.io/collections/cameras/products/openmv-n6?variant=41573456576606">OpenMV N6</a></li>
 </ul>
 <h3 id="reference-bill-of-materials">Reference Bill of Materials</h3>
 <h4 id="holybro-s500v2">Holybro S500v2</h4>
@@ -397,14 +409,14 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
 **Used for connecting to ground control station, 915MHz variant also available</p>
 <p><strong>Useful tool for this page</strong>:
 <a href="https://tabletomarkdown.com/convert-spreadsheet-to-markdown/">https://tabletomarkdown.com/convert-spreadsheet-to-markdown/</a></p>
-<p>This page was last updated: <em><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 27, 2025</span></em></p>
+<p>This page was last updated: <em><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 25, 2025</span></em></p>
 <script data-goatcounter="https://aerial-robotics-landscape.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../simulation/" class="btn btn-neutral float-left" title="Simulation of Aerial Robotics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../autopilots_suites/" class="btn btn-neutral float-right" title="Autopilot Suites">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../software/" class="btn btn-neutral float-right" title="Autopilot suites">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -435,7 +447,7 @@ Some companion computers also integrate flight control (RTOS) hardware in the sa
       <span><a href="../simulation/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../autopilots_suites/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../software/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
